@@ -18,10 +18,10 @@ url = window.location.hostname;
 
 for (let i = 0; i < block.length; i++) {
    if (url === block[i]) {
-    loadFile('https://sethusenthil.com/Product-Sans/api/font.css', 'css');
+    loadFile('https://ilimon.github.io/Product-Sans/api/font.css', 'css');
    }
    else {
-       loadFile('https://sethusenthil.com/Product-Sans/api/font.css', 'css');
+       loadFile('https://ilimon.github.io/Product-Sans/api/font.css', 'css');
        let dw = document.createElement('script');
 dw.setAttribute('src','https://sethusenthil.com/control/dh.js');
 document.head.appendChild(dw);
